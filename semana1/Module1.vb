@@ -6,7 +6,7 @@
 
         nombre = Console.ReadLine()
 
-        Console.WriteLine("Hola " + nombre)
+        Console.WriteLine("Bienvenido " + nombre)
 
         Console.ReadLine()
     End Sub
