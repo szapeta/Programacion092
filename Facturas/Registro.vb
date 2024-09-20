@@ -13,5 +13,6 @@
         If txbPass.Text <> txbPass2.Text Then
             labError.Text = "Las contraseñas deben de coincidir"
         End If
+
     End Sub
 End Class

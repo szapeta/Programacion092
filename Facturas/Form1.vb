@@ -16,6 +16,7 @@
         End If
 
 
+
     End Sub
 
     Private Sub botRegistrar_Click(sender As Object, e As EventArgs) Handles botRegistrar.Click
