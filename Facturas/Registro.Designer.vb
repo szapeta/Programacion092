@@ -26,7 +26,7 @@ Partial Class Registro
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txbNombre = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txbApellido = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txbUsuario = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -38,7 +38,7 @@ Partial Class Registro
         Me.txbTelefono = New System.Windows.Forms.TextBox()
         Me.labError = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.txbFecha = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'Label1
@@ -57,9 +57,9 @@ Partial Class Registro
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(59, 68)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(174, 24)
+        Me.Label2.Size = New System.Drawing.Size(193, 24)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Ingrese su nombre:"
+        Me.Label2.Text = "Ingrese su nombre:(*)"
         '
         'txbNombre
         '
@@ -75,17 +75,17 @@ Partial Class Registro
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(390, 68)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(174, 24)
+        Me.Label3.Size = New System.Drawing.Size(193, 24)
         Me.Label3.TabIndex = 8
-        Me.Label3.Text = "Ingrese su apellido:"
+        Me.Label3.Text = "Ingrese su apellido:(*)"
         '
-        'TextBox1
+        'txbApellido
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(390, 110)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(249, 31)
-        Me.TextBox1.TabIndex = 7
+        Me.txbApellido.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbApellido.Location = New System.Drawing.Point(390, 110)
+        Me.txbApellido.Name = "txbApellido"
+        Me.txbApellido.Size = New System.Drawing.Size(249, 31)
+        Me.txbApellido.TabIndex = 7
         '
         'Label4
         '
@@ -93,9 +93,9 @@ Partial Class Registro
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(59, 180)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(270, 24)
+        Me.Label4.Size = New System.Drawing.Size(289, 24)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Ingrese un nombre de usuario:"
+        Me.Label4.Text = "Ingrese un nombre de usuario:(*)"
         '
         'txbUsuario
         '
@@ -111,9 +111,9 @@ Partial Class Registro
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(63, 292)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(201, 24)
+        Me.Label5.Size = New System.Drawing.Size(220, 24)
         Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Ingrese su contraseña:"
+        Me.Label5.Text = "Ingrese su contraseña:(*)"
         '
         'txbPass
         '
@@ -130,9 +130,9 @@ Partial Class Registro
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(386, 292)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(214, 24)
+        Me.Label6.Size = New System.Drawing.Size(233, 24)
         Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Confirme su contraseña:"
+        Me.Label6.Text = "Confirme su contraseña:(*)"
         '
         'txbPass2
         '
@@ -190,20 +190,20 @@ Partial Class Registro
         Me.Label8.TabIndex = 20
         Me.Label8.Text = "Ingrese su fecha de nacimiento:"
         '
-        'DateTimePicker1
+        'txbFecha
         '
-        Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(386, 453)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(278, 20)
-        Me.DateTimePicker1.TabIndex = 21
+        Me.txbFecha.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbFecha.Location = New System.Drawing.Point(386, 453)
+        Me.txbFecha.Name = "txbFecha"
+        Me.txbFecha.Size = New System.Drawing.Size(278, 20)
+        Me.txbFecha.TabIndex = 21
         '
         'Registro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(740, 681)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.txbFecha)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.labError)
         Me.Controls.Add(Me.Label7)
@@ -216,7 +216,7 @@ Partial Class Registro
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txbUsuario)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txbApellido)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txbNombre)
         Me.Controls.Add(Me.Label1)
@@ -231,7 +231,7 @@ Partial Class Registro
     Friend WithEvents Label2 As Label
     Friend WithEvents txbNombre As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txbApellido As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents txbUsuario As TextBox
     Friend WithEvents Label5 As Label
@@ -243,5 +243,5 @@ Partial Class Registro
     Friend WithEvents txbTelefono As TextBox
     Friend WithEvents labError As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents txbFecha As DateTimePicker
 End Class
